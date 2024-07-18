@@ -1,0 +1,358 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#e6c3c3;
+    padding-top: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #9eccac;
+    color: #333;
+    padding: -56px 0;
+    
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #9c1c1c;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('image.jpg'); /* Replace with your image */
+    color: #000;
+    text-align: center;
+    padding: 179px 0;
+    background-size: cover;
+  background-position: top 0px center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.heading, .portfolio, .contact {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.heading h2, .portfolio h2, .contact h2 {
+    margin-bottom: 100px;
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(230, 18, 18, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result-table thead {
+    background-color: transparent;
+    color: black;
+}
+
+.result-table th, .result-table td {
+    padding: 12px 47px;
+    text-align: left;
+    border-bottom: 1px solid #e42323;
+    text-decoration: underline;
+}
+
+.result-table tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.result-table tr:hover {
+    background-color: #fb7e14;
+}
+
+.result-table th {
+    position: sticky;
+    top: 0;
+    background-color:transparent;
+    background-color: rgba(223, 21, 21, 0.9);
+}
+
+footer {
+    background-color:transparent;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #e61313;
+    box-shadow: 0 0 10px rgba(177, 27, 27, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.course-table th, .course-table td {
+    padding: 12px 47px;
+    text-align: left;
+    border-bottom: 1px solid #e42c2c;
+    text-decoration: underline;
+}
+
+.course-table tr:nth-child(even) {
+    background-color:transparent ;
+}
+
+.course-table tr:hover {
+    background-color: #fb7e14;
+}
+
+.course-table th {
+    position: sticky;
+    top: 0;
+}
+-----------------------------------------------------------
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d41e1e;
+}
+
+.skills-container {
+    text-align: center;
+    padding: 200px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #c04646;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #fb7e14;
+}
+----------------------------------------------------------------------
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.projects{
+    background-image: url('image.jpg');
+    justify-content: center;
+    margin: -92px;
+   
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: top 0px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.project {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('img2.avif')
+}
+
+.project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.github-link {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #00ff37;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.github-link:hover {
+    background-color: #fb7e14;
+}
+
+/* styles.css */
+
+/* styles.css */
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8fc0688;
+    padding: 1rem 3rem;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.logo{
+    width: 40px;
+    margin-left: 10px;
+}
+----------------------------------------------------------------
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem 2rem;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    color: rgb(10, 1, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 95px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 5;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: rgb(12, 1, 1);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
